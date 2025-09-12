@@ -16,9 +16,9 @@ const defaultNotes = [
   },
   {
     id: 3,
-    content: 'GET and POST are the most important methods of HTTP protocol',
+    content: 'This Statement Got Changed',
     important: true,
-  },
+  }
 ]
 const App = () => {
   const [notes, setNotes] = useState(defaultNotes);
@@ -34,10 +34,13 @@ const App = () => {
         <ul>
           {
             notes.map((note, ind) => {
-              return <li key={ind}>{note.content}</li>
+              return <li key={ind} style={{color:'red'}}>{note.content}</li>
             })
           }
         </ul>
+      </div>
+      <div style={{fontSize:'50px',marginTop:'20px'}}>
+        <h1>Hello World</h1>
       </div>
       {/* <BlogList /> */}
     </div>
