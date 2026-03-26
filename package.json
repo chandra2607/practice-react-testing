@@ -11,7 +11,7 @@
     "test": "vitest run",
     "play-test": "playwright test",
     "play-test:ss": "npm run dev && playwright test --ui",
-    "play-test:ui":"playwright test --ui",
+    "play-test:ui": "playwright test --ui",
     "play-test:report": "playwright show-report"
   },
   "dependencies": {

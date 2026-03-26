@@ -1,0 +1,21 @@
+/* Basic modern styling for signup form and layout */
+body { font-family: Inter, Roboto, Arial, sans-serif; }
+.app-root.layout { display: flex; gap: 28px; padding: 24px; align-items: flex-start; }
+.notes-section { flex: 1; background: #fff; padding: 18px; border-radius: 10px; box-shadow: 0 6px 18px rgba(12,18,30,0.06); }
+.signup-section { width: 420px; background: linear-gradient(180deg,#ffffff,#fbfdff); padding: 18px; border-radius: 10px; box-shadow: 0 6px 18px rgba(12,18,30,0.06); }
+.app-title { margin: 0 0 12px 0; font-size: 20px; }
+.signup-form { display: flex; flex-direction: column; gap: 12px; }
+.signup-form fieldset { border: 1px solid #e6eef9; padding: 12px; border-radius: 8px; }
+.signup-form legend { font-weight: 600; }
+.signup-form label { display: flex; flex-direction: column; gap: 6px; margin-bottom: 8px; font-size: 13px; }
+.signup-form input[type="text"], .signup-form input[type="email"], .signup-form input[type="password"] { padding: 8px 10px; border-radius: 6px; border: 1px solid #d6e2f5; }
+.form-actions { display:flex; gap:8px; justify-content:flex-end; margin-top:8px; }
+.btn-primary, .btn-secondary, .btn-submit { padding: 8px 12px; border-radius: 6px; border: none; cursor: pointer; }
+.btn-primary { background: #2563eb; color: white; }
+.btn-secondary { background: #eef2ff; color: #1f2937; }
+.btn-submit { background: #10b981; color:white; }
+.form-error { color: #b91c1c; font-weight:600; margin-top:8px; }
+.steps-indicator { font-size:12px; color:#64748b; }
+.thankyou-root { padding:12px; text-align:center; }
+#notes-list ul { padding-left: 18px; }
+.field-error { color:#b91c1c; font-size:12px; margin-top:6px; }
