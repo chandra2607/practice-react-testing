@@ -1,0 +1,24 @@
+{
+  "auth": {
+    "username": "tester",
+    "password": "tester"
+  },
+  "concurrency": 10,
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "breakpoints": [375, 1440],
+  "fullPageScreenshot": true,
+  "waitUntil": "networkidle",
+  "waitAfterLoad": 1000,
+  "postScrollWait": 1200,
+  "scrollStep": 400,
+  "scrollDelay": 150,
+  "scrollStabilityIterations": 3,
+  "timeout": 30000,
+  "retryCount": 2,
+  "threshold": 0.1,
+  "failThreshold": 0.1,
+  "outputDir": "./vrt-results"
+}
